@@ -12,6 +12,8 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -24,3 +26,34 @@ a {
     background: black;
   }
 }
+
+
+.wrapper{
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://img.freepik.com/premium-vector/binary-code-stream-digital-data-codes-hacker-coding-crypto-matrix-numbers-flow-digitally-blue-screen-abstract-background_102902-991.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.inner{
+  background-color: black;
+  opacity: 0.6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  color: blue;
+  font-size: 120px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.parent{
+  padding: 20px;
+}
+
+
